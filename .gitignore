@@ -1,5 +1,8 @@
 *.class
 */bin/
+target
+.tracker
 /br.org.archimedes.io.xml/bin/FileXMLSchema.xsd
 *~
 .metadata
+workspace

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Erase Tests Plug-in
+Bundle-SymbolicName: br.org.archimedes.erase.tests
+Bundle-Version: 0.58.0
+Bundle-Vendor: Hugo Corbucci
+Require-Bundle: br.org.archimedes.core,
+ br.org.archimedes.erase,
+ br.org.archimedes.core.tests,
+ org.junit
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: br.org.archimedes.erase

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fillet Tests Plug-in
+Bundle-SymbolicName: br.org.archimedes.fillet.tests
+Bundle-Version: 0.58.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: br.org.archimedes.fillet;bundle-version="0.58.0",
+ br.org.archimedes.core.tests;bundle-version="0.58.0",
+ org.junit,
+ br.org.archimedes.core;bundle-version="0.58.0",
+ br.org.archimedes.line;bundle-version="0.58.0",
+ br.org.archimedes.move;bundle-version="0.58.0",
+ br.org.archimedes.arc;bundle-version="0.58.0",
+ br.org.archimedes.curvedshape;bundle-version="0.58.0",
+ br.org.archimedes.polyline;bundle-version="0.58.0",
+ br.org.archimedes.trims;bundle-version="0.58.0",
+ br.org.archimedes.circle;bundle-version="0.58.0"
+Import-Package: br.org.archimedes.infiniteline,
+ br.org.archimedes.semiline
+Export-Package: br.org.archimedes.fillet

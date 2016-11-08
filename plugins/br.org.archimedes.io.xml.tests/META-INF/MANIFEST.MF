@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: XML IO Tests Plug-in
+Bundle-SymbolicName: br.org.archimedes.io.xml.tests;singleton:=true
+Bundle-Version: 0.58.0
+Require-Bundle: br.org.archimedes.core,
+ br.org.archimedes.line,
+ br.org.archimedes.io.xml,
+ br.org.archimedes.core.tests,
+ br.org.archimedes.circle,
+ br.org.archimedes.curvedshape,
+ br.org.archimedes.infiniteline,
+ br.org.archimedes.arc,
+ br.org.archimedes.polyline,
+ br.org.archimedes.text,
+ br.org.archimedes.dimension,
+ org.junit,
+ org.eclipse.core.runtime;bundle-version="3.4.0",
+ org.eclipse.ui;bundle-version="3.4.0"
+Export-Package: br.org.archimedes.io.xml,br.org.archimedes.io.xml.parsers,br.org.archimedes.io.xml.elements
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: br.org.archimedes.io.xml.TestActivator
